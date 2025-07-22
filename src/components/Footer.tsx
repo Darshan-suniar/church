@@ -8,13 +8,14 @@ const Footer = () => {
 
         <div className="mt-4 md:mt-0 flex space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/about" className="hover:underline">About</Link>
-          <Link to="/service" className="hover:underline">Services</Link>
+          <Link to="/members" className="hover:underline">Member's</Link>
+          <Link to="/aboutus" className="hover:underline">About Us</Link>
+          <Link to="/programme" className="hover:underline">programmes</Link>
           <Link to="/contact" className="hover:underline">Contact</Link>
         </div>
       </div>
     </footer>
   );
-};
+}; 
 
 export default Footer;
